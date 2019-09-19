@@ -1,0 +1,13 @@
+Ways to persist (have data exist outside of application) data:
+- *** Database (MongoDB) - Running this on a server (local server)
+    - basically, running this on localhost:<some port>
+
+- ** save data to a .csv file (comma-separated file)
+    - write to this file when you add a workout
+    - read from the file when this workout application starts up
+
+
+Ways of running this application:
+    - Compile each class, and run Main.java inside a terminal instead of Intellij
+    - Create a JAR file and then run this
+    - Use Java Swing
